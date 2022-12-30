@@ -1,0 +1,95 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+
+#profile{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+    align-items: center;
+}
+
+#info{
+    display: flex;
+    width: 60%;
+    /* justify-content: space-around; */
+    margin-left: 30px;
+}
+
+#profilePhoto{
+    display: flex;
+    width:fit-content;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#profilePhoto img{
+    width: 100%;
+    height: 80%;
+    min-height: 50px;
+    min-width: 50px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+#otherInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 10px;
+    width: 50%;
+}
+
+
+#username_info{
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#username{
+    color: rgb(38, 38, 38);
+    font-size: 1.9rem;
+    width: fit-content;
+}
+
+#edit-btn-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#edit-btn{
+    margin-left: 8px;
+}
+
+#stats{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#stats span{
+    font-weight: bold;
+}
+#bio{
+    display: flex;
+    justify-content: center;
+}
+
+#uploads{
+
+}
+
+#posts{
+    
+}

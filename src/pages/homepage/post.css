@@ -1,0 +1,58 @@
+#post-div{
+    width: 33%;
+    height: fit-content;
+    min-width: 200px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#postDetail{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+#postBy{
+
+}
+
+#postTime{
+
+}
+
+#postContent{
+    border-bottom: 1px solid gray;
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+#postPic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#postPic img{
+    width: 95%;
+    aspect-ratio: 1/1.15;
+}
+
+#caption{
+
+}
+
+#interact-div{
+    display: flex;
+}
+
+#like *{
+    margin-right: 10px;
+    font-size: 0.7rem;
+}
+
+#comment *{
+    font-size: 0.7rem;
+}
