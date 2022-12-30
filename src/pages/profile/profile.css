@@ -42,7 +42,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
     padding-left: 10px;
     width: 50%;
 }
@@ -73,7 +73,7 @@ p{
 #stats{
     width: 100%;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     justify-content: space-between;
     margin-bottom: 20px;
 }
